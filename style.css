@@ -1,3 +1,6 @@
+body{
+    background-color: rgb(53, 44, 32);
+}
 .timerBtn{
     width: 80px;
     height: 30px;
@@ -14,8 +17,14 @@
     font-family: consolas, monospace;
 }
 #timeContainer{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 250px;
     text-align: center;
     border: 3px solid;
     border-radius: 25px;
     background-color: #222222;
+    max-width: 400px;
+    box-shadow: 15px 15px 15px #40c437, -15px -15px 15px #817f7f ;
+
 }
